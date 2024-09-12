@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путь Веры</title>
+    <link rel="stylesheet" href="stylerp.css">
+</head>
+<body>
+    <div id="start-screen" class="game-container">
+        <h2>Путь Веры</h2>
+        <input type="text" id="player-name" placeholder="Введите имя">
+        <button id="start-button">Начать игру</button>
+    </div>
+    <div id="game-screen" class="game-container hidden">
+        <div class="character-container">
+            <img id="character-image" src="" alt="Ваш персонаж">
+        </div>
+        <div class="info-container">
+            <p>Имя: <span id="character-name">-</span></p>
+            <p>Клан: <span id="character-clan">-</span></p>
+            <p>Опыт: <span id="character-xp">0</span></p>
+            <p>Деньги: <span id="character-money">0</span></p>
+            <p>Репутация: <span id="character-reputation">0</span></p> 
+        </div>
+        <div class="actions-container">
+            <button id="choose-clan-button">Выбрать Клан</button>
+        </div>
+        <div id="choice-container" class="hidden">
+            <h2>Выбрать Клан:</h2>
+            <div class="clan-choice">
+                <img src="C:\Users\79898\Desktop\RP\img\said.webp" alt="Суфисты" class="clan-image">
+                <button id="sufi-button">Суфисты</button>
+            </div>
+            <div class="clan-choice">
+                <img src="C:\Users\79898\Desktop\RP\img\laden.webp" alt="Саляфиты" class="clan-image">
+                <button id="sali-button">Саляфиты</button>
+            </div>
+        </div>
+        <div id="map-container" class="hidden">
+            <div class="map">
+                <div class="map-location" id="location-1">Задание 1</div>
+                <div class="map-location" id="location-2">Задание 2</div>
+                <div class="map-location" id="location-3">Задание 3</div>
+                <div class="map-location" id="location-4">Встретить Ладена</div>
+            </div>
+        </div>
+        <div id="task-container" class="hidden">
+            <p id="task-description">-</p>
+            <button id="complete-task-button">Выполнить</button>
+            <p id="subtitles">-</p>
+        </div>
+    </div>
+    <script src="rpscript.js"></script>
+</body>
+</html>
+

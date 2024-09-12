@@ -1,0 +1,33 @@
+/* ... (предыдущий стиль) */
+
+.clan-choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.clan-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.map {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.map-location {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* ... (остальной стиль) */
